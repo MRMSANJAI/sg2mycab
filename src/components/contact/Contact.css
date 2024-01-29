@@ -1,0 +1,148 @@
+.contact-container {
+    position: relative;
+    background-image: url('../../assets/map.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-position:  center;
+  }
+  .contact-header{
+    position: relative;
+  }
+  .background-image{
+    width: 100%;
+    background-size: cover;
+    height: auto;
+  }
+  .overlay-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    color:white;
+    z-index: 1;
+  }
+  .contactparas{
+    text-align: center;
+    padding: 5% 5%;
+    z-index: 2;
+  }
+  .contactparas h1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.4;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .contactparas h3 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.4;
+    color: #333333;
+  }
+  .contact-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 6%;
+    z-index: 2;
+  }
+  .contact-info{
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius:10px;
+    color:#333333;
+  }
+  .contact-info h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    margin-bottom: -30px;
+    letter-spacing:0.75px;
+    text-align: left;
+    color: #000000;
+  }
+  
+  .contact-info h3 {
+    font-weight:400;
+    font-size: 30px;
+    color: #333333;
+  }
+  .book-car{
+    text-align: center;
+    margin-bottom: 2%;
+    width: 400px;
+    background: rgba(240,230,216,0.705);
+    border:none
+}
+    
+.book-car h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100px;
+    font-size: 27px;
+    color:#333333;
+    width:375px;
+}
+.book-car input{
+   height: 50px;
+   width: 375px;
+   border-radius: 5px;
+}
+.book-car textarea{
+    height: 80px;
+    width: 375px;
+    border-radius: 5px;
+}
+.form-control{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 5px;
+  height: 50px;
+}
+.book-car button{
+    background-color: #007bff;
+    color: #fff;
+    width: 375px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+@media(max-width:968px) {
+    .contact-details{
+        flex-direction: column;
+    }
+    .contactparas h1{
+        font-weight:500;
+        font-size: 24px;
+    }
+    .contactparas h3{
+        font-size: 18px;
+        line-height: 1.2;
+    }
+    .contact-container{
+        background-size: contain;
+    }
+    .background-image img{
+        width: 100%;
+        background-size: contain;
+        height: 20vh;
+    }
+    .contact-info h1{
+        font-size: 22px;
+    }
+    .contact-info h3{
+        font-size: 18px;
+        color: #333333;
+    }
+    .book-car{
+        width: 375px;
+    }
+}

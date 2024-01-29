@@ -1,0 +1,171 @@
+.fleets-container {
+    margin-top: 80px;
+}
+
+.bg-img {
+    height: 70vh;
+    width: 100%;
+}
+
+.img-heading {
+    border: 3px solid #fff;
+    padding: 7px 5px 7px 5px;
+    width: 50%;
+    display: flex;
+    height: 14%;
+    margin: 0px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.heading-fleet {
+    background-color: #ffffff98;
+    color: #026afd;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    margin: 0;
+    padding: 6px;
+    width: 100%;
+    font-size: 2.5rem;
+}
+
+.car-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.fleet-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fleet-img {
+    transition: transform 0.2s;
+}
+
+.fleet-img:hover {
+    transform: scale(1.2);
+}
+
+.fleet-title {
+    color: #242427;
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+
+.innova-title {
+    color: #242427;
+    font-weight: 500;
+    font-size: 2.5rem;
+    margin-top: 50px;
+}
+
+.innova-container {
+    background-color: #D2E0FB;
+    padding-top: 45px;
+    min-height: 55vh;
+    padding-bottom: 45px;
+}
+
+.img-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 0px;
+}
+
+.car-img {
+    transform: scaleX(-1);
+    width: 500px;
+}
+
+.content-container {
+    width: 50%;
+    text-align: center;
+    padding-right: 15px;
+}
+
+.heading-car {
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 15px;
+    color: #212529;
+    font-size: 2.5rem;
+}
+
+.heading-sub {
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #212529;
+    margin-top: 0px;
+    margin-bottom: 0.5rem;
+}
+
+.description {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin-bottom: 1rem;
+    margin-top: 0px;
+    color: #212529;
+    line-height: 1.5rem;
+}
+
+.desc-list {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    list-style-type: none;
+    padding-left: 2rem;
+}
+
+.detail-list {
+    font-family: sans-serif;
+    color: #212529;
+}
+
+.no-heading {
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+
+.alphard-container {
+    background-color: #fff;
+    min-height: 55vh;
+    padding-bottom: 45px;
+    padding-top: 45px;
+}
+
+.img2-container {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    justify-content: space-around;
+}
+
+.car2-img {
+    vertical-align: middle;
+}
+
+.content2-container {
+    order: -1;
+    padding-left: 20px;
+    text-align: center;
+    width: 50%;
+}
+
+.starex-car {
+    transform: scaleX(-1);
+}
+
+.wo-heading {
+    font-weight: 500;
+    margin-top: 0px;
+    font-size: 1.5rem;
+    margin-top: -20px;
+}

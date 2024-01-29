@@ -1,0 +1,161 @@
+.service-bg-container{
+    min-height: 100vh;
+    margin-top: 80px;
+    
+}
+.service-list-container {
+    list-style-type: none;
+    display: flex;
+    padding-left: 0px;
+    margin-top: 30px;
+}
+.service-items{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.luxury-car-container{
+    padding-left: 50px;
+    padding-top: 40px;
+    background-image: linear-gradient(black,#1e1e1e);
+    color: #FFF;
+    min-height: 60vh;
+    padding-bottom: 26px;
+    margin-bottom: 35px;
+}
+.luxury-heading{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.luxury{
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+.services-icon {
+    font-size: 75px;
+    margin-bottom: 20px;
+}
+.airport-bg-container,.extend-bg-container,.private-bg-container,.service-bg-container h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+}
+.extend-bg-container,.private-bg-container{
+    color: #FFF;
+}
+.service{
+    font-weight: bold;
+    font-size: 24px;
+    max-width: 230px;
+}
+.btn-info{
+    background-color: #3498db;
+    padding: 9px;
+    border-radius: 5px;
+    outline: none;
+    color: #ffff;
+    width: 160px;
+    border: 1px solid #3498db;
+    transition: background-color 0.5s ease;
+    margin-top: 15px;
+    font-weight: bold;
+    animation: shadow-blink 3s infinite; 
+}
+.btn-info :hover{
+    background-color: rgb(232, 227, 227);
+    box-shadow: 0 0 4px #ccc;
+    color: #000000;
+}
+.airport-bg-container{
+    display: flex;
+    height:60vh;
+    align-items: center;
+    padding-left: 50px;
+    justify-content:space-around;
+    gap: 30px;
+
+}
+.airport-transfer-container{
+    width: 600px;
+}
+.private-bg-container{
+    display: flex;
+    height: 60vh;
+    align-items: center;
+    padding-left: 50px;
+    justify-content: space-around;
+    gap: 40px;
+    background-color: #4D4C7D;
+}
+.private-transfer-container{
+    width: 600px;
+}
+.extend-bg-container{
+    display:flex;
+    min-height: 60hv;
+    align-items: center;
+    padding: 50px;
+    justify-content: space-around;
+    gap: 50px;
+    background-color: #FFFF;
+    background-color: #4D4C7D;
+
+}
+@media(max-width:568px){
+    .service-list-container{
+        flex-direction: column;
+    }
+    .extend-bg-container{
+        padding-left: 20px;
+        padding-right: 10px;
+    }  
+    .luxury-car-container{
+        padding-right: 20px;
+        padding-left: 20px;
+    } 
+    .airport-bg-container{
+        flex-direction: column;
+        width: 100%;
+        padding-left: 20px;
+        margin-bottom: 50px;
+        padding-right: 20px;
+        padding-top: 30px;
+    }
+    .car-img{
+        width: 100%;
+    }
+    .service-bg-container{
+        width: 100%;
+    }
+    .airport-transfer-container{
+        width: 95%;
+   }
+    .private-bg-container{
+    flex-direction: column;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 25px;
+    padding-top: 30px;
+    padding-bottom:30px;
+  }
+   .private-transfer-container{
+    width: 100%;
+  }
+    .extend-bg-container{
+    flex-direction: column;
+    width: 100%;
+    padding-top:30px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+ }
+ .btn-info{
+    font-size: 12px;
+ }
+
+}   

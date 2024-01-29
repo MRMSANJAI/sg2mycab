@@ -1,0 +1,208 @@
+.home {
+    margin: 0;
+    position: relative;
+}
+
+.homepage {
+    text-align: left;
+    padding: 20px;
+    padding-left: 70px;
+    margin-top: 50px;
+}
+
+.animated-heading {
+    color: #474643;
+}
+
+.pic {
+    width: 100%;
+    height: 90vh;
+}
+
+.malbay-intro {
+    align-items: center;
+    padding: 80px;
+    margin-top: -50px;
+}
+
+.malbay-name {
+    text-align: center;
+    color: #dbb343;
+    font-size: 32px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.about-malbay {
+    text-align: center;
+    font-family: sans-serif;
+    color: #222;
+}
+
+.info {
+    background-color: #007bff;
+    color: #fff;
+    display: block;
+    border: none;
+    border-radius: 5px;
+    margin: 20px auto;
+    padding: 15px 20px;
+    font-size: 16px;
+}
+
+pic2 {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fleet-outer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.fleet-container {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fleet-text {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.fleet-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.car1 {
+    transform: scaleX(-1);
+    max-width: 45%;
+}
+
+.car2 {
+    max-width: 45%;
+}
+
+.booknow-btn {
+    margin-top: -20px;
+    margin-left: 600px;
+    background-color: #5f9ea0;
+    border: 1px solid #ddd;
+    color: #fff;
+    font-size: 18px;
+    height: 40px;
+    width: 130px;
+}
+
+.package-wrapper {
+    padding: 20px;
+}
+
+.package {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #474643;
+}
+
+.package-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.accordian-item {
+    border: 0;
+    margin: 5px;
+    width: 24%
+}
+
+.accordian-title {
+    background-color: #f5f5f5;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    outline: none;
+    padding: 10px 15px;
+    text-align: left;
+    transition: background-color .3s ease;
+    width: 100%;
+}
+
+.accordian-title:hover {
+    background-color: #e0e0e0;
+}
+
+.know-more-btn {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+    padding: 12px 20px;
+    font-size: 16px;
+}
+
+.know-more-btn:hover {
+    background-color: #065dbb;
+}
+
+.content-wrapper {
+    text-align: center;
+    padding: 20px;
+}
+
+.heading3 {
+    color: #212520;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.h3-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -60px;
+}
+
+.headingfleet {
+    color: #212520;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #665b5b;
+    margin: 0 10px;
+}
+
+.para {
+    text-align: center;
+    color: #474643;
+    margin-bottom: 1rem;
+    margin-top: -20px;
+}
+
+.slider-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.slider-image {
+    max-width: 100%;
+    height: auto;
+    transition: opacity 0.5s;
+}
